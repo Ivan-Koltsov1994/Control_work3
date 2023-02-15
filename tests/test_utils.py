@@ -1,4 +1,4 @@
-rom utils import get_date, data_sort, last_value, get_formatted_data
+from utils import get_date, data_sort, last_value, get_formatted_data
 import pytest
 
 def test_get_data(test_url):
